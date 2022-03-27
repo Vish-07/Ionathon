@@ -1,0 +1,591 @@
+<!--
+Author: W3layouts
+Author URL: http://w3layouts.com
+License: Creative Commons Attribution 3.0 Unported
+License URL: http://creativecommons.org/licenses/by/3.0/
+-->
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <title>Minimal an Admin Panel Category Flat Bootstrap Responsive Website Template | Gallery :: w3layouts</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="keywords" content="Minimal Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template, 
+Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyEricsson, Motorola web design" />
+    <script type="application/x-javascript">
+        addEventListener("load", function() {
+            setTimeout(hideURLbar, 0);
+        }, false);
+
+        function hideURLbar() {
+            window.scrollTo(0, 1);
+        }
+    </script>
+    <link href="css/bootstrap.min.css" rel='stylesheet' type='text/css' />
+    <!--<link href="css/bootstrap.css" rel='stylesheet' type='text/css' />-->
+    <!-- Custom Theme files -->
+    <link href="css/style.css" rel='stylesheet' type='text/css' />
+    <!--<link href="css/font-awesome.css" rel="stylesheet"> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <script src="https://kit.fontawesome.com/555cf21779.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+    <script src="js/jquery.min.js">
+    </script>
+    <script src="js/bootstrap.min.js">
+    </script>
+
+    <!-- Mainly scripts -->
+    <script src="js/jquery.metisMenu.js"></script>
+    <script src="js/jquery.slimscroll.min.js"></script>
+    <!-- Custom and plugin javascript -->
+    <link href="css/custom.css" rel="stylesheet">
+    <script src="js/custom.js"></script>
+    <script src="js/screenfull.js"></script>
+    <script>
+        $(function() {
+            $('#supported').text('Supported/allowed: ' + !!screenfull.enabled);
+
+            if (!screenfull.enabled) {
+                return false;
+            }
+
+
+
+            $('#toggle').click(function() {
+                screenfull.toggle($('#container')[0]);
+            });
+
+
+
+        });
+    </script>
+
+    <style>
+        .app-footer {
+            flex-shrink: 0;
+            background: #f4f4f4;
+            color: #444;
+            padding: 10px;
+            font-size: 14px;
+            margin-top: 10px;
+        }
+        
+        .app-footer ul {
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+        }
+        
+        .app-footer ul li {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        
+        .app-footer ul li i {
+            font-size: 22px;
+        }
+        
+        #rcorners1 {
+            border-radius: 15px;
+            background: white;
+            padding-top: 20px;
+            padding-bottom: 0px;
+            width: 100%;
+            height: auto;
+            margin: 10px;
+        }
+        
+        #rcorners2 {
+            /*border-radius: 15px;
+  background: white;*/
+            padding-top: 10px;
+            padding-bottom: 10px;
+            width: auto;
+            height: auto;
+            margin: 10px;
+        }
+        
+        .btn {
+            box-shadow: none !important
+        }
+        
+        .all-icons {
+            height: 90px;
+            width: 90px;
+        }
+        
+        .icon-text {
+            text-align: center;
+            font-size: 13px;
+            line-height: 1.5em;
+            height: 3em;
+            overflow: hidden;
+        }
+        
+        #openPopup {
+            outline: none;
+            padding: 0;
+            border: none;
+            background: none;
+        }
+    </style>
+
+
+</head>
+
+<body>
+    <div id="wrapper">
+        <!----->
+        <nav class="navbar-default navbar-static-top" role="navigation">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <h1> <a class="navbar-brand" href="index.html">EcoPay</a></h1>
+            </div>
+            <!--<div class=" border-bottom">
+        	<div class="full-left">
+        	  <section class="full-top">
+				<button id="toggle"><i class="fa fa-arrows-alt"></i></button>	
+			</section>
+			<form class=" navbar-left-right">
+              <input type="text"  value="Search..." onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Search...';}">
+              <input type="submit" value="" class="fa fa-search">
+            </form>
+            <div class="clearfix"> </div>
+           </div>-->
+
+
+            <!-- Brand and toggle get grouped for better mobile display -->
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <!--<div class="drop-men" >
+		        <ul class=" nav_1">
+		           
+		    		<li class="dropdown at-drop">
+		              <a href="#" class="dropdown-toggle dropdown-at " data-toggle="dropdown"><i class="fa fa-globe"></i> <span class="number">5</span></a>
+		              <ul class="dropdown-menu menu1 " role="menu">
+		                <li><a href="#">
+		               
+		                	<div class="user-new">
+		                	<p>New user registered</p>
+		                	<span>40 seconds ago</span>
+		                	</div>
+		                	<div class="user-new-left">
+		                
+		                	<i class="fa fa-user-plus"></i>
+		                	</div>
+		                	<div class="clearfix"> </div>
+		                	</a></li>
+		                <li><a href="#">
+		                	<div class="user-new">
+		                	<p>Someone special liked this</p>
+		                	<span>3 minutes ago</span>
+		                	</div>
+		                	<div class="user-new-left">
+		                
+		                	<i class="fa fa-heart"></i>
+		                	</div>
+		                	<div class="clearfix"> </div>
+		                </a></li>
+		                <li><a href="#">
+		                	<div class="user-new">
+		                	<p>John cancelled the event</p>
+		                	<span>4 hours ago</span>
+		                	</div>
+		                	<div class="user-new-left">
+		                
+		                	<i class="fa fa-times"></i>
+		                	</div>
+		                	<div class="clearfix"> </div>
+		                </a></li>
+		                <li><a href="#">
+		                	<div class="user-new">
+		                	<p>The server is status is stable</p>
+		                	<span>yesterday at 08:30am</span>
+		                	</div>
+		                	<div class="user-new-left">
+		                
+		                	<i class="fa fa-info"></i>
+		                	</div>
+		                	<div class="clearfix"> </div>
+		                </a></li>
+		                <li><a href="#">
+		                	<div class="user-new">
+		                	<p>New comments waiting approval</p>
+		                	<span>Last Week</span>
+		                	</div>
+		                	<div class="user-new-left">
+		                
+		                	<i class="fa fa-rss"></i>
+		                	</div>
+		                	<div class="clearfix"> </div>
+		                </a></li>
+		                <li><a href="#" class="view">View all messages</a></li>
+		              </ul>
+		            </li>
+					<li class="dropdown">
+		              <a href="#" class="dropdown-toggle dropdown-at" data-toggle="dropdown"><span class=" name-caret">User<i class="caret"></i></span><img src="images/wo.jpg"></a>
+		              <ul class="dropdown-menu " role="menu">
+		                <li><a href="profile.html"><i class="fa fa-user"></i>Edit Profile</a></li>
+		                <li><a href="inbox.html"><i class="fa fa-envelope"></i>Inbox</a></li>
+		                <li><a href="calendar.html"><i class="fa fa-calendar"></i>Calender</a></li>
+		                <li><a href="inbox.html"><i class="fa fa-clipboard"></i>Tasks</a></li>
+		              </ul>
+		            </li>
+		           
+		        </ul>
+		     </div>
+			<div class="clearfix">-->
+
+    </div>
+
+    <div class="navbar-default sidebar" role="navigation">
+        <div class="sidebar-nav navbar-collapse">
+            <ul class="nav" id="side-menu">
+
+                <li>
+                    <a href="index.html" class=" hvr-bounce-to-right"><i class="fa fa-dashboard nav_icon "></i><span class="nav-label">Dashboard</span> </a>
+                </li>
+                <li>
+                    <a href="credit_score.html" class=" hvr-bounce-to-right"><i class="fa fa-dashboard nav_icon "></i><span class="nav-label">Credit Board</span> </a>
+                </li>
+                <li>
+                    <a href="green_dashboard.html" class=" hvr-bounce-to-right"><i class="fa fa-dashboard nav_icon "></i><span class="nav-label">EcoBoard</span> </a>
+                </li>
+
+                <li>
+                    <a href="#" class=" hvr-bounce-to-right"><i class="fa fa-cog nav_icon"></i> <span class="nav-label">Settings</span><span class="fa arrow"></span></a>
+                    <ul class="nav nav-second-level">
+                        <li><a href="signin.html" class=" hvr-bounce-to-right"><i class="fa fa-sign-in nav_icon"></i>Sign In</a></li>
+                        <li><a href="signup.html" class=" hvr-bounce-to-right"><i class="fa fa-sign-in nav_icon"></i>Sign Up</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </div>
+    </nav>
+    <div id="page-wrapper" class="gray-bg dashbard-1">
+        <div class="content-main">
+
+            <!--banner	
+		    <div class="banner">
+		    	<h2>
+			<a href="index.html">Home</a>
+			<i class="fa fa-angle-right"></i>
+				<span>Gallery</span>
+				</h2>
+		    </div>
+		//banner-->
+            <!--gallery-->
+
+            <div class="app-footer">
+                <span>SMS Enabled</span>
+                <ul id="rcorners1">
+                    <div class="all-icons">
+                        <li class="all-icons">
+                            <!--<i class="fa-solid fa-money-bill-transfer" style="color:#5d4dff;font-size: 30px;" ></i>-->
+                            <button id="openPopup" data-toggle="modal" data-target="#myModal" style="
+						box-shadow: none !important"><i class="fa-solid fa-money-bill-transfer" style="color:#5d4dff;font-size: 30px;" ></i></button>
+                            <p class="icon-text">Money Transfer</p>
+                            <div class="container">
+                                <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+
+                                    <div class="modal fade" id="myModal" role="dialog">
+                                        <div class="modal-dialog">
+
+                                            <!-- Modal content-->
+                                            <div class="modal-content">
+                                                <div class="modal-header navbar-header">
+                                                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                                    <h4 class="modal-title" style="color: white;"><strong>SMS Enabled</strong></h4>
+                                                </div>
+                                                <div class="modal-body">
+                                                    <form>
+                                                        <div class="mb-3">
+
+                                                            <label for="cars">Choose Transaction:</label>
+                                                            <select id="cars" name="cars">
+													<option value="volvo">SMS Money Transfer</option>
+													<option value="saab">Check Balance</option>
+													<option value="fiat">Donate for a Cause</option>
+													<option value="audi">Account Info</option>
+												</select>
+                                                            <label for="recipient-name" class="col-form-label">Recipient:</label>
+                                                            <input type="text" class="form-control" id="recipient-name">
+                                                        </div>
+                                                        <div class="mb-3">
+                                                            <label for="recipient-name" class="col-form-label">UPI ID:</label>
+                                                            <input type="text" class="form-control" id="recipient-name">
+                                                        </div>
+                                                        <div class="mb-3">
+                                                            <label for="recipient-name" class="col-form-label">Phone Number:</label>
+                                                            <input type="text" class="form-control" id="recipient-name">
+                                                        </div>
+                                                        <div class="mb-3">
+                                                            <label for="message-text" class="col-form-label">Message:</label>
+                                                            <textarea class="form-control" id="message-text"></textarea>
+                                                        </div>
+                                                    </form>
+                                                </div>
+                                                <div class="modal-footer">
+                                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                                    <button type="button" class="btn btn-primary">Submit</button>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                    </div>
+                    <div class="all-icons">
+                        <li class="all-icons">
+                            <button id="openPopup" data-toggle="modal" data-target="#myModal" style="
+						box-shadow: none !important"><i class="fa-solid fa-sack-dollar" style="color:#5d4dff;font-size: 30px;"></i></button>
+                            <p class="icon-text">Check Balance</p>
+                        </li>
+                    </div>
+                    <div class="all-icons">
+                        <li class="all-icons">
+                            <button id="openPopup" data-toggle="modal" data-target="#myModal" style="
+						box-shadow: none !important"><i class="fa fa-heart" style="color:#5d4dff;font-size: 30px;"></i></button>
+                            <p class="icon-text">Donate Money</p>
+                        </li>
+                    </div>
+                    <div class="all-icons">
+                        <li class="all-icons">
+                            <button id="openPopup" data-toggle="modal" data-target="#myModal" style="
+						box-shadow: none !important"><i class="fa fa-university" style="color:#5d4dff;font-size: 30px;"></i></button>
+                            <p class="icon-text">Account<br>Info</p>
+                        </li>
+                    </div>
+                </ul>
+                <span>Recharge & Pay Bills</span>
+                <div id="rcorners1">
+                    <ul id="rcorners2">
+                        <div class="all-icons">
+                            <li>
+                                <i class="fa-solid fa-lightbulb" style="color:#5d4dff;font-size: 30px;"></i>
+                                <p class="icon-text">Electricity Bill</p>
+                            </li>
+                        </div>
+                        <div class="all-icons">
+                            <li>
+                                <i class="fa-solid fa-droplet" style="color:#5d4dff;font-size: 30px;"></i>
+                                <p class="icon-text">Water Bill</p>
+                            </li>
+                        </div>
+                        <div class="all-icons">
+                            <li>
+                                <i class="fa-solid fa-car" style="color:#5d4dff;font-size: 30px;"></i>
+                                <p class="icon-text">CNG Bill</p>
+                            </li>
+                        </div>
+                        <div class="all-icons">
+                            <li>
+                                <i class="fa-solid fa-mobile-screen-button" style="color:#5d4dff;font-size: 30px;"></i>
+                                <p class="icon-text">Mobile Recharge</p>
+                            </li>
+                        </div>
+                    </ul>
+                    <ul id="rcorners2">
+                        <div class="all-icons">
+                            <li>
+                                <i class="fa-solid fa-tv" style="color:#5d4dff;font-size: 30px"></i>
+                                <p class="icon-text">DTH Recharge</p>
+                            </li>
+                        </div>
+                        <div class="all-icons">
+                            <li>
+                                <i class="fa-solid fa-wallet" style="color:#5d4dff;font-size: 30px"></i>
+                                <p class="icon-text">Loan</p>
+                            </li>
+                        </div>
+                        <div class="all-icons">
+                            <li>
+                                <i class="fa-solid fa-video" style="color:#5d4dff;font-size: 30px"></i>
+                                <p class="icon-text">Subscriptions</p>
+                            </li>
+                        </div>
+                        <div class="all-icons">
+                            <li>
+                                <i class="fa-solid fa-circle-chevron-right" style="color:#5d4dff;font-size: 30px"></i>
+                                <p class="icon-text">More</p>
+                            </li>
+                        </div>
+                    </ul>
+                </div>
+                <span>Coins and Rewards</span>
+                <ul id="rcorners1">
+                    <div class="all-icons">
+                        <li class="all-icons">
+                            <a href="green_dashboard.html">
+                                <i class="fa-solid fa-coins" style="color:#1abc7e;font-size: 50px;"></i>
+                                <p class="icon-text">Green Coins</p>
+                            </a>
+                        </li>
+                    </div>
+                    <div class="all-icons">
+                        <li class="all-icons">
+                            <a href="credit_score.html"><i class="fa-solid fa-money-bill-trend-up" style="color:#1abc7e;font-size: 50px;"></i>
+                            <p class="icon-text">Credit Score</p></a>
+                        </li>
+                    </div>
+                </ul>
+            </div>
+
+            <!--<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+		<ol class="carousel-indicators">
+		  <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+		  <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+		  <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+		</ol>
+		<div class="carousel-inner" role="listbox">
+		  <div class="carousel-item active">
+			<div class="img"><img class="d-block img-fluid" src="https://cdn.vox-cdn.com/thumbor/J6i6OWUjcvlW49ucIbPCN33pM8U=/1400x1050/filters:format(png)/cdn.vox-cdn.com/uploads/chorus_asset/file/19334648/tt.png" height=auto width=100% alt="First slide"></div>
+		  </div>
+		  <div class="carousel-item">
+			<div class="img"><img class="d-block img-fluid" src="https://pbs.twimg.com/media/FC6dbksWYAQW58y.jpg?name=small" height=auto width=100% alt="Second slide"></div>
+		  </div>
+		  <div class="carousel-item">
+			<div class="img"><img class="d-block img-fluid" src="https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/5b7bca41397877.57a40d1e359af.jpg" height=auto width=100% alt="Third slide"></div>
+		  </div>
+		</div>
+		<a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+		  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+		  <span class="sr-only">Previous</span>
+		</a>
+		<a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+		  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+		  <span class="sr-only">Next</span>
+		</a>
+	  </div>-->
+            <div class="gallery">
+                <div class="col-md">
+                    <div class="gallery-img">
+                        <a href="www.teamtrees.org" class="b-link-stripe b-animate-go  swipebox" title="Image Title">
+                            <img class="img-responsive " src="https://cdn.vox-cdn.com/thumbor/J6i6OWUjcvlW49ucIbPCN33pM8U=/1400x1050/filters:format(png)/cdn.vox-cdn.com/uploads/chorus_asset/file/19334648/tt.png" alt="" />
+                            <span class="zoom-icon"> </span> </a>
+                        </a>
+                    </div>
+                    <div class="text-gallery">
+                        <h6>Save Trees</h6>
+                    </div>
+                </div>
+                <div class="col-md">
+                    <div class="gallery-img">
+                        <a href="www.teamseas.org" class="b-link-stripe b-animate-go  swipebox" title="Image Title">
+                            <img class="img-responsive " src="https://pbs.twimg.com/media/FC6dbksWYAQW58y.jpg?name=small" alt="" />
+                            <span class="zoom-icon"> </span> </a>
+                        </a>
+                    </div>
+                    <div class="text-gallery">
+                        <h6>Clean Oceans</h6>
+                    </div>
+                </div>
+                <div class="col-md">
+                    <div class="gallery-img">
+                        <a href="www.teamtrees.org" class="b-link-stripe b-animate-go  swipebox" title="Image Title">
+                            <img class="img-responsive " src="images/electricity.png" alt="" />
+                            <span class="zoom-icon"> </span> </a>
+                        </a>
+                    </div>
+                    <div class="text-gallery">
+                        <h6>Save Electricity</h6>
+                    </div>
+                </div>
+                <div class="col-md">
+                    <div class="gallery-img">
+                        <a href="www.teamseas.org" class="b-link-stripe b-animate-go  swipebox" title="Image Title">
+                            <img class="img-responsive " src="images/transport.png" alt="" />
+                            <span class="zoom-icon"> </span> </a>
+                        </a>
+                    </div>
+                    <div class="text-gallery">
+                        <h6>Public Transport</h6>
+                    </div>
+                </div>
+
+            </div>
+            <!--//gallery-->
+            <!---->
+
+            <div class="col-md-7 mid-content-top">
+                <div class="middle-content">
+                    <h3>Our Partners</h3>
+                    <!-- start content_slider -->
+                    <div id="owl-demo" class="owl-carousel text-center">
+                        <div class="item">
+                            <img class="lazyOwl img-responsive" data-src="images/na.jpeg" alt="name">
+                        </div>
+                        <div class="item">
+                            <img class="lazyOwl img-responsive" data-src="images/na1.jpeg" alt="name">
+                        </div>
+                        <div class="item">
+                            <img class="lazyOwl img-responsive" data-src="images/na2.jpeg" alt="name">
+                        </div>
+                        <div class="item">
+                            <img class="lazyOwl img-responsive" data-src="images/na.jpeg" alt="name">
+                        </div>
+                        <div class="item">
+                            <img class="lazyOwl img-responsive" data-src="images/na1.jpeg" alt="name">
+                        </div>
+                        <div class="item">
+                            <img class="lazyOwl img-responsive" data-src="images/na2.jpeg" alt="name">
+                        </div>
+                        <div class="item">
+                            <img class="lazyOwl img-responsive" data-src="images/na.jpeg" alt="name">
+                        </div>
+
+                    </div>
+                </div>
+                <!--//sreen-gallery-cursual---->
+                <!-- requried-jsfiles-for owl -->
+                <link href="css/owl.carousel.css" rel="stylesheet">
+                <script src="js/owl.carousel.js"></script>
+                <script>
+                    $(document).ready(function() {
+                        $("#owl-demo").owlCarousel({
+                            items: 3,
+                            lazyLoad: true,
+                            autoPlay: true,
+                            pagination: true,
+                            nav: true,
+                        });
+                    });
+                </script>
+                <div class="copy">
+                    <p> &copy; 2022 🌳EcoPay All Rights Reserved </p>
+                </div>
+            </div>
+        </div>
+        <div class="clearfix"> </div>
+    </div>
+
+    <!---->
+    <link rel="stylesheet" href="css/swipebox.css">
+    <script src="js/jquery.swipebox.min.js"></script>
+    <script type="text/javascript">
+        jQuery(function($) {
+            $(".swipebox").swipebox();
+        });
+    </script>
+    <!--scrolling js-->
+    <script src="js/jquery.nicescroll.js"></script>
+    <script src="js/scripts.js"></script>
+    <!--//scrolling js-->
+
+</body>
+
+</html>
